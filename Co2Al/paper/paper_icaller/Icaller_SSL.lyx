@@ -1,0 +1,123 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+- Giới thiệu SSL: 
+\end_layout
+
+\begin_layout Standard
+Thuật toán học bán giám sát là các thuật toán sử dụng cả dữ liệu được gắn
+ nhãn và không được gắn nhãn để làm giàu dữ liệu huấn luyện.
+ Nhiều thuật toán học tập bán giám sát đã được để xuất có thể sử dụng dữ
+ liệu không gắn nhãn, hai trong số những ý tưởng này là Cotraining và Active
+ learning.
+ 
+\end_layout
+
+\begin_layout Itemize
+các thuật toán, thách thức:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Cotrain là một phương pháp được Blum và Mitchell đề xuất vào năm 1998, ý
+ tưởng cơ bản của Cotrain là sử dụng nhiều chế độ xem (multi-view) với dữ
+ liệu đã gán nhãn để đào tạo ra các bộ phân loại, sau đó mỗi bộ phân loạiđể
+ học việc triển khai thuật toán Cotrain ban đầu được thực hiện đối với vấn
+ đề phân loại trang web, họ đã sử dụng hai bộ tính năng khác nhau cho mỗi
+ trang web.
+ Hai bộ tính năng này phải thỏa mãn:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Mỗi bộ tính năng phải đủ mạnh để đào tạo một mô hình 
+\end_layout
+
+\begin_layout Itemize
+Mỗi tập dữ liệu phải độc lập với tập dữ liệu khác
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Tuy nhiên trên thực tế, việc lấy dữ liệu để thỏa mãn 2 điều kiện đó khá
+ khó khăn, 
+\end_layout
+
+\end_deeper
+\end_body
+\end_document
